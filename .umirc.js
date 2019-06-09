@@ -1,6 +1,9 @@
 
 // ref: https://umijs.org/config/
 export default {
+  publicPath: 'https://benjamin15122.github.io/AMap-Demo/',
+  base: '/AMap-Demo',
+  exportStatic: true,
   treeShaking: true,
   plugins: [
     // ref: https://umijs.org/plugin/umi-plugin-react.html
